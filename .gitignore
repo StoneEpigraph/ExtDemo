@@ -1,0 +1,13 @@
+*.[oa]
+*.py[co]
+*.exe
+*.log
+*.out
+*.dat
+*.txt
+*.jpg
+*.jpeg
+
+.*
+data/
+build/

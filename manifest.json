@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Extension Demo",
+  "description": "谷歌浏览器扩展应用实例",
+  "version": "0.0.1",
+  "icons": {
+        "16": "image/icon16.png",
+        "48": "image/icon48.png",
+        "128": "image/icon128.png"
+  },
+
+  "browser_action": {
+        "default_icon":  {
+            "19": "image/icon19.png",
+            "38": "image/icon38.png"
+        },
+        "default_title": "应用实例",
+        "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
